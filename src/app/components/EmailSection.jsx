@@ -22,9 +22,10 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          Ready for a new adventure? 
+          My inbox is your playground! Whether you&apos;ve got a burning question, 
+          a brilliant idea, or just want to drop a “Hey,” I&apos;m all ears and excited to chat. 
+          Let&apos;s connect and make something awesome happen!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/KuroiiDev">

@@ -55,12 +55,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a mobile app developer with a passion for creating
-            interactive and responsive mobile applications. I have experience
-            working with Flutter, Laravel, My Sql, HTML, CSS, and Git. 
-            I&apos;m a quick learner and I am always
-            looking to expand my knowledge and skill set. I&apos;m a team player and
-            I&apos;m excited to work with others to create amazing applications.
+          I&apos;m an enthusiastic mobile app developer who specializes in creating dynamic and
+           responsive applications. 
+           Proficient in Flutter, Laravel, MySQL, HTML, CSS, and Git, 
+           I bring a comprehensive skill set to my work. I&apos;m passionate about continuous 
+           learning and eager to stay at the forefront of emerging technologies. 
+           As a collaborative team player, I&apos;m excited to contribute to and grow with a 
+           team dedicated to building outstanding applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
