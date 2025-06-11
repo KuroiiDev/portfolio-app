@@ -7,8 +7,11 @@ import Link from "next/link";
 
 const HeroSection = () => {
     const handleDownload = async (e) => {
-        alert('Sorry This Feature Is still under development');
-      };
+        //alert('Sorry This Feature Is still under development');
+        const fileId = "1uFTCQ_yjicYgWefMJlRpjlJJ-cZa3BMl";
+        const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+        window.open(downloadUrl, "_blank");
+    };
     return (
         <section className="lg:py-10">
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -42,7 +45,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Just a Developer who wants to learn something new. 
+                        Just a Developer who wants to learn something new.
                     </p>
                     <div>
                         <button type="button"
