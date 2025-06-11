@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
     const handleDownload = async (e) => {
         //alert('Sorry This Feature Is still under development');
-        const fileId = "1uFTCQ_yjicYgWefMJlRpjlJJ-cZa3BMl";
+        const fileId = "1R8Us3XqdHlDgXWHCbYxQVvYwueeVq6Xq";
         const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
         window.open(downloadUrl, "_blank");
     };
