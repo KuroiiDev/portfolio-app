@@ -5,22 +5,37 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Languages",
+    id: "languages",
     content: (
       <ul className="list-disc pl-2">
-        <li>Flutter</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>Laravel</li>
+        <li>Dart</li>
+        <li>PHP</li>
+        <li>Blade PHP</li>
+        <li>Javascript</li>
         <li>Html</li>
         <li>Css</li>
+        <li>C++</li>
+        <li>Python</li>
       </ul>
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Tools",
+    id: "tools",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Flutter</li>
+        <li>Laravel</li>
+        <li>Arduino</li>
+        <li>NextJS</li>
+        <li>STM</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Educations",
+    id: "educations",
     content: (
       <ul className="list-disc pl-2">
         <li>Software Engineer Vocational High School</li>
@@ -55,28 +70,35 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I&apos;m an enthusiastic mobile app developer who specializes in creating dynamic and
-           responsive applications. 
-           Proficient in Flutter, Laravel, MySQL, HTML, CSS, and Git, 
-           I bring a comprehensive skill set to my work. I&apos;m passionate about continuous 
-           learning and eager to stay at the forefront of emerging technologies. 
-           As a collaborative team player, I&apos;m excited to contribute to and grow with a 
-           team dedicated to building outstanding applications.
+            I&apos;m an enthusiastic mobile app developer who specializes in creating dynamic and
+            responsive applications.
+            Proficient in Flutter, Laravel, MySQL, HTML, CSS, and Git,
+            I bring a comprehensive skill set to my work. I&apos;m passionate about continuous
+            learning and eager to stay at the forefront of emerging technologies.
+            As a collaborative team player, I&apos;m excited to contribute to and grow with a
+            team dedicated to building outstanding applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("languages")}
+              active={tab === "languages"}
             >
               {" "}
-              Skills{" "}
+              Languages{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("tools")}
+              active={tab === "tools"}
             >
               {" "}
-              Education{" "}
+              Tools{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("educations")}
+              active={tab === "educations"}
+            >
+              {" "}
+              Educations{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}

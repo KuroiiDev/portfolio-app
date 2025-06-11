@@ -52,7 +52,7 @@ const HeroSection = () => {
                             onClick={handleDownload}
                             className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-info-500 via-secondary-500 to-primary-500 hover:bg-slate-200 text-white"
                         >
-                            View My CV
+                            Get My CV
                         </button>
                         <Link
                             href="/#projects"
